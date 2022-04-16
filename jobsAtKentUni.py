@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #Can 'EmreYbs' find a job at https://jobs.kent.ac.uk :)?
-#On purpose, I didn't use Pandas and save as csv, since this small code is only for my job hunt for a specific site.There won't be many Announcements there:)
+#On purpose, I didn't use Pandas and save as csv, since this simple code is only for my job hunt for a specific site.There won't be many Announcements there:)
 #So no need to use data frames.
 
 import requests
