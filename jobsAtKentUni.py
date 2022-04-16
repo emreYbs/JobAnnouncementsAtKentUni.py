@@ -10,7 +10,6 @@ from bs4 import BeautifulSoup
 from halo import Halo
 import time
 
-
 print("\n\tJob Announcements at the University of Kent Website")
 print("\n\tThis simple Python code will download the RSS Feeds for Job Announcements in the University of Kent Website\n")
 
@@ -25,10 +24,8 @@ headers = {'User-Agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:86.0) Gecko
 soup = BeautifulSoup(url.content, 'xml')
 items = soup.find_all('item')
 
-
 for item in items:
     title = item.title.text
-    
     link = item.link.text
     category = item.category.text
     pubDate = item.pubDate.text
