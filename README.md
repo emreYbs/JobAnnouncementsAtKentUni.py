@@ -1,2 +1,4 @@
 # JobAnnouncementsAtKentUni.py
-simple Python script to download the RSS Feeds for Job Announcements in the University of Kent Website
+simple Python script to download the RSS Feeds for Job Announcements in the University of Kent Website (https://www.kent.ac.uk/)
+
+
