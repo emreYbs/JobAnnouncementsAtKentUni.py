@@ -1,8 +1,8 @@
-#!/bin/bash
+#/bin/bash/python
+#emreybs
 
-
-#On purpose, I didn't use Pandas and save as csv, since this simple code is only for my job hunt for a specific site.There won't be many Announcements there:)
-#So no need to use data frames.
+# On purpose, I didn't use Pandas and save as csv, since this simple code is only for my job hunt for a specific site.There won't be many Announcements there:)
+# So no need to use data frames.
 
 import requests
 from bs4 import BeautifulSoup
